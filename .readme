@@ -1,5 +1,8 @@
 Food2Go Delivery Landing Page
-Welcome to the Food2Go Delivery Landing Page! This repository contains the source code and assets for the Food2Go website, a platform that offers convenient and reliable food delivery services. With Food2Go, customers can browse menus, place orders, and have their favorite meals delivered straight to their doorstep. This readme file provides an overview of the project and instructions for setting up and running the website locally.
+Welcome to the Food2Go Delivery Landing Page! This repository contains the source code and assets for the Food2Go website, 
+a platform that offers convenient and reliable food delivery services. With Food2Go, customers can browse menus, place orders, 
+and have their favorite meals delivered straight to their doorstep. 
+This readme file provides an overview of the project and instructions for setting up and running the website locally.
 
 Table of Contents
 Features
@@ -13,11 +16,16 @@ Contributing
 Features
 Food2Go offers the following key features to enhance the delivery experience:
 
-Browse Restaurants and Menus: Customers can explore a wide selection of partner restaurants and their menus, allowing them to discover new culinary delights and satisfy their cravings.
-Place Orders: Users can add desired items to their cart, customize their orders, specify delivery preferences, and proceed to the checkout process.
-Secure Payment: Food2Go supports a secure payment system, enabling customers to complete transactions with confidence and peace of mind.
-Real-time Order Tracking: Customers can track the status of their orders in real-time, ensuring transparency and providing estimated delivery times.
-Responsive Design: The website is designed to be responsive and accessible across various devices, including desktops, tablets, and mobile phones.
+Browse Restaurants and Menus: Customers can explore a wide selection of partner restaurants and their menus,
+allowing them to discover new culinary delights and satisfy their cravings.
+Place Orders: Users can add desired items to their cart, customize their orders, specify delivery preferences, 
+and proceed to the checkout process.
+Secure Payment: Food2Go supports a secure payment system, 
+enabling customers to complete transactions with confidence and peace of mind.
+Real-time Order Tracking: Customers can track the status of their orders in real-time, 
+ensuring transparency and providing estimated delivery times.
+Responsive Design: The website is designed to be responsive and accessible across various devices, 
+including desktops, tablets, and mobile phones.
 Technologies Used
 Food2Go is built using the following technologies:
 
@@ -47,7 +55,10 @@ Open the index.html file in your preferred web browser or code editor.
 That's it! You now have the Food2Go website set up locally and ready to be explored.
 
 Usage
-Once the Food2Go website is up and running, users can visit the landing page, browse restaurants and menus, and place orders as desired. The website provides an intuitive interface and easy-to-follow instructions for a seamless user experience. Users can track their orders in real-time and make secure payments to complete the delivery process.
+Once the Food2Go website is up and running, users can visit the landing page, 
+browse restaurants and menus, and place orders as desired. 
+The website provides an intuitive interface and easy-to-follow instructions for a seamless user experience. 
+Users can track their orders in real-time and make secure payments to complete the delivery process.
 
 Design System
 Food2Go follows a design system that incorporates the following fonts and colors:
@@ -68,4 +79,5 @@ Hero Background Color: #fff2ee
 Please ensure that these fonts and colors are used consistently throughout the website for a cohesive and visually appealing experience.
 
 Contributing
-Thank you for considering contributing to the Food2Go project! If you have any suggestions, bug reports, or would like to contribute enhancements, please feel free to submit a pull request or open an issue. We appreciate your valuable input.
+Thank you for considering contributing to the Food2Go project! If you have any suggestions, bug reports, 
+or would like to contribute enhancements, please feel free to submit a pull request or open an issue. We appreciate your valuable input.
