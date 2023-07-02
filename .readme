@@ -35,14 +35,13 @@ Code editor (e.g., Visual Studio Code, Sublime Text, Atom)
 Installation
 Clone the repository to your local machine using the following command:
 
-bash
-Copy code
-git clone https://github.com/your-username/food2go.git
+bash:
+git clone https://github.com/your-username/Food2Go.git
 Navigate to the project directory:
 
-bash
-Copy code
-cd food2go
+bash:
+cd Food2Go
+
 Open the index.html file in your preferred web browser or code editor.
 
 That's it! You now have the Food2Go website set up locally and ready to be explored.
@@ -57,7 +56,8 @@ Font Families:
 
 "Roboto", sans-serif
 "Nunito", sans-serif
-Colors:
+
+<!-- Colors: -->
 
 Primary: #ff6a34
 Secondary: #2E4057
