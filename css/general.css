@@ -1,0 +1,179 @@
+/*
+
+- 02 Font Weights
+
+- 03 Line-height
+Default: 1
+
+- 04 COLOR SYSTEM
+- Primary: #ff6a34
+- Secondary: #2E4057
+- Accent Color: #FFD700
+- Neutral color 1: #333
+- Neutral color 2: #F5F5F5
+- hero background color: #fff2ee
+
+- 05 SHADOWS
+
+- 06 Border radius
+
+- 07 White space
+
+- 01 TYPOGRAPHY SYSTEM
+
+- Font-size(px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+font families:
+font-family: "Roboto", sans-serif;
+font-family: 'Nunito', sans-serif;
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+html {
+  font-size: 62.5%;
+  color: #333;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+}
+p,
+a,
+li,
+span {
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  line-height: 1;
+  font-weight: 400;
+  color: #333;
+}
+/*********************/
+/* GENERAL REUSABLE COMPONENTS */
+/*********************/
+.primary-heading,
+.heading-secondary,
+.heading-tertairy {
+  font-weight: 700;
+  letter-spacing: -1px;
+  color: #333;
+}
+.primary-heading {
+  font-size: 6.2rem;
+  margin-bottom: 1.6rem;
+  margin-top: 4.8rem;
+  line-height: 1.1;
+}
+.heading-text-span {
+  color: #ff6a34;
+}
+
+.subheading {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #e65f2f;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+}
+
+.heading-tertairy {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3rem;
+  letter-spacing: 0.1rem;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 1.6rem 3.2rem;
+  border-radius: 0.8rem;
+  transition: all 0.3s ease-out;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  background-color: #ff6a34;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.btn--full:hover,
+.btn--full:active {
+  background-color: #e65f2f;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  background-color: #fff4f0;
+  color: #2e4057;
+  box-shadow: inset 0 0 0 2px #969696;
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: #fff;
+  color: #121922;
+  box-shadow: inset 0 0 0 3px #2e4057;
+}
+
+.margin-right-btn:link,
+.margin-right-btn:visited {
+  margin-right: 2.4rem;
+}
+
+/*********************/
+/* GRID SYSTEM */
+/*********************/
+
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  row-gap: 9.6rem;
+  column-gap: 6.4rem;
+}
+
+.grid--2-columns {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-columns {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-columns {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--center--v {
+  align-items: center;
+}
