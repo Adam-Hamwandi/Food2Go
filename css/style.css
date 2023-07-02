@@ -193,24 +193,62 @@
   font-size: 2.4rem;
   color: #333;
   font-weight: 600;
-  margin-bottom: 3.2rem;
-}
-
-.meal-items {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-.meal-item {
-  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  margin-top: 1.4rem;
 }
 
 .meal-img {
   width: 100%;
 }
 .tag {
-  padding-top: 1rem;
   font-size: 1.8rem;
-  margin-bottom: 0.7rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  display: flex;
+  gap: 0.5em;
+}
+ion-icon {
+  color: #e65f2f;
+}
+.rating {
+  font-size: 1.4rem;
+  margin-bottom: 3.2rem;
+}
+
+.meal-description {
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.4;
+  margin-bottom: 2rem;
+}
+
+.meal-btn {
+  font-size: 1.8rem;
+  color: #2e4057;
+  font-weight: 600;
+  transition: all 0.4s ease-in-out;
+}
+.meal-btn:hover,
+.meal-btn:active {
+  color: #c54b1f;
+  transition: all 0.4s ease-in-out;
+}
+.card-content {
+  padding: 1rem 1rem 2rem 2rem;
+}
+.meal {
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 11px 2px rgba(0, 0, 0, 0.11);
+  box-shadow: 0px 0px 11px 2px rgba(0, 0, 0, 0.11);
+  transition: all 0.3s ease-in-out;
+}
+.meal img {
+  border-radius: 10px 10px 0 0;
+}
+.meal:hover,
+.meal:active {
+  -webkit-box-shadow: 0px 0px 11px 6px rgba(0, 0, 0, 0.11);
+  box-shadow: 0px 0px 11px 6px rgba(0, 0, 0, 0.11);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
