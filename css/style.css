@@ -159,14 +159,14 @@
 .step-img-box::before {
   width: 65%;
   padding-bottom: 65%;
-  background-color: #fff7cc;
+  background-color: #eaecee;
   z-index: -2;
 }
 
 .step-img-box::after {
   width: 50%;
   padding-bottom: 50%;
-  background-color: #fff3b3;
+  background-color: #abb3bc;
   z-index: -1;
 }
 .step-description {
@@ -187,39 +187,35 @@
 
 .meals-section {
   padding: 9.6rem 0;
+  background-color: #fffced;
 }
 
 .meal-title {
   font-size: 2.4rem;
   color: #333;
   font-weight: 600;
-  margin-bottom: 1rem;
-  margin-top: 1.4rem;
+  position: relative;
+  top: -1rem;
 }
 
 .meal-img {
   width: 100%;
 }
-.tag {
-  font-size: 1.8rem;
-  margin-bottom: 1rem;
-  font-weight: 700;
-  display: flex;
-  gap: 0.5em;
-}
+
 ion-icon {
   color: #e65f2f;
+  margin-right: 1rem;
 }
 .rating {
   font-size: 1.4rem;
-  margin-bottom: 3.2rem;
 }
 
 .meal-description {
   font-size: 1.6rem;
   font-weight: 300;
   line-height: 1.4;
-  margin-bottom: 2rem;
+  margin-bottom: 1.4rem;
+  margin-top: 2rem;
 }
 
 .meal-btn {
@@ -234,21 +230,120 @@ ion-icon {
   transition: all 0.4s ease-in-out;
 }
 .card-content {
-  padding: 1rem 1rem 2rem 2rem;
+  padding: 2.4rem;
 }
 .meal {
-  border-radius: 10px;
+  border-radius: 11px;
+  overflow: hidden;
   -webkit-box-shadow: 0px 0px 11px 2px rgba(0, 0, 0, 0.11);
   box-shadow: 0px 0px 11px 2px rgba(0, 0, 0, 0.11);
   transition: all 0.3s ease-in-out;
+  background-color: #fff;
 }
-.meal img {
-  border-radius: 10px 10px 0 0;
-}
+
 .meal:hover,
 .meal:active {
   -webkit-box-shadow: 0px 0px 11px 6px rgba(0, 0, 0, 0.11);
   box-shadow: 0px 0px 11px 6px rgba(0, 0, 0, 0.11);
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+  transform: translateY(-0.5rem);
+}
+
+/*********************/
+/* DIETS SECTION */
+/*********************/
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.list-diets {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.list-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #e6c200;
+}
+
+.download-heading {
+  text-align: center;
+  font-size: 3.6rem;
+  margin-top: 9.6rem;
+}
+.app-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+  margin-top: 4rem;
+}
+
+.app-img {
+  width: 25%;
+}
+.app-img:hover,
+.app-img:active {
+  cursor: pointer;
+}
+/*********************/
+/* TESTIMONIALS SECTION */
+/*********************/
+
+.section-testimonials {
+  display: grid;
+  grid-template-columns: 60fr 40fr;
+  align-items: center;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 4rem;
+  column-gap: 8rem;
+}
+
+.testimonials-container {
+  padding: 9.6rem;
+}
+
+.testimonial-img {
+  width: 8rem;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+.testimonial-text {
+  font-size: 1.8rem;
+  line-height: 1.4;
+  margin-bottom: 1.6rem;
+}
+
+.testimonial-user {
+  font-size: 1.6rem;
+  color: #e65f2f;
+  font-weight: 700;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.6rem;
+  padding: 1.6rem;
+}
+.gallery-item img {
+  display: block;
+  width: 90%;
+  height: 90%;
+  transition: all 0.5s;
+}
+.gallery-item img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+.gallery-item {
+  overflow: hidden;
 }

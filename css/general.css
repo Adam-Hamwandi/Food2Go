@@ -84,7 +84,7 @@ body {
 
 .subheading {
   display: block;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 800;
   color: #e65f2f;
   text-transform: uppercase;
@@ -146,6 +146,20 @@ body {
   margin-right: 2.4rem;
 }
 
+.link:link,
+.link:visited {
+  display: inline-block;
+  color: #e65f2f;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 5px;
+  transition: all 0.4s;
+}
+.link:hover,
+.link:visited {
+  color: #2e4057;
+  border-bottom: 1px solid transparent;
+}
+
 /*********************/
 /* GRID SYSTEM */
 /*********************/
@@ -176,4 +190,14 @@ body {
 
 .grid--center--v {
   align-items: center;
+}
+
+.margin-bottom-md {
+  margin-bottom: 4.8rem;
+}
+
+/* HELPER CLASSES */
+
+.center-text {
+  text-align: center;
 }
