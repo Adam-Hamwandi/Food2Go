@@ -366,7 +366,7 @@ ion-icon {
 
 .pricing-plan--starter {
   justify-self: end;
-  border: 1px solid #2e405752;
+  /* border: 1px solid #2e405752; */
 }
 .plan-name {
   color: #e65f2f;
@@ -402,4 +402,28 @@ ion-icon {
 .plan-sign-up {
   text-align: center;
   margin-top: 4.8rem;
+}
+
+/*********************/
+/* FEATURE SECTION */
+/*********************/
+
+.feature-icon {
+  color: #ff6a34;
+  height: 3.2rem;
+  width: 3.2rem;
+  margin-bottom: 3.2rem;
+  background-color: #fdefea;
+  padding: 1.2rem;
+  border-radius: 50%;
+}
+.feature-title {
+  font-size: 2.4rem;
+  color: #444;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+.feature-text {
+  font-size: 1.8rem;
+  line-height: 1.2;
 }
