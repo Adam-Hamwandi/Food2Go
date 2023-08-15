@@ -8,10 +8,10 @@ Default: 1
 - 04 COLOR SYSTEM
 - Primary: #ff6a34
 - Secondary: #2E4057
-- Accent Color: #FFD700
 - Neutral color 1: #333
 - Neutral color 2: #F5F5F5
 - hero background color: #fff2ee
+
 
 - 05 SHADOWS
 
@@ -74,7 +74,7 @@ body {
 }
 .primary-heading {
   font-size: 6.2rem;
-  margin-bottom: 1.6rem;
+  margin-bottom: 2.4rem;
   margin-top: 4.8rem;
   line-height: 1.1;
 }
@@ -105,6 +105,7 @@ body {
   letter-spacing: 0.1rem;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -112,6 +113,8 @@ body {
   font-weight: 500;
   padding: 1.6rem 3.2rem;
   border-radius: 0.8rem;
+  border: none;
+  cursor: pointer;
   transition: all 0.3s ease-out;
 }
 
@@ -145,6 +148,18 @@ body {
 .margin-right-btn:link,
 .margin-right-btn:visited {
   margin-right: 2.4rem;
+}
+
+.btn-form {
+  background-color: #190b05;
+  color: #fff0eb;
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn-form:hover {
+  background-color: #fff0eb;
+  color: #190b05;
 }
 
 .link:link,
@@ -193,12 +208,21 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.grid--5-columns {
+  grid-template-columns: repeat(5, 1fr);
+}
+
 .grid--center--v {
   align-items: center;
 }
 
 .margin-bottom-md {
   margin-bottom: 4.8rem;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 8px #ffc062;
 }
 
 /* HELPER CLASSES */
